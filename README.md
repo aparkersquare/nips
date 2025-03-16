@@ -98,6 +98,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 - [NIP-96: HTTP File Storage Integration](96.md)
 - [NIP-98: HTTP Auth](98.md)
 - [NIP-99: Classified Listings](99.md)
+- [NIP-100: Money Addresses](100.md)
 - [NIP-7D: Threads](7D.md)
 - [NIP-C7: Chats](C7.md)
 
@@ -235,6 +236,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 | `31989`       | Handler recommendation          | [89](89.md)                            |
 | `31990`       | Handler information             | [89](89.md)                            |                         |
 | `32267`       | Software Application            |                                        |                        |
+| `33277`       | Money Address                   | [100](100.md)                          |
 | `34550`       | Community Definition            | [72](72.md)                            |
 | `38383`       | Peer-to-peer Order events       | [69](69.md)                            |
 | `39000-9`     | Group metadata events           | [29](29.md)                            |
@@ -277,7 +279,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 ## Standardized Tags
 
 | name              | value                                | other parameters                | NIP                                                |
-| ----------------- | ------------------------------------ | ------------------------------- | -------------------------------------------------- |
+| ----------------- |--------------------------------------| ------------------------------- | -------------------------------------------------- |
 | `a`               | coordinates to an event              | relay URL                       | [01](01.md)                                        |
 | `A`               | root address                         | relay URL                       | [22](22.md)                                        |
 | `d`               | identifier                           | --                              | [01](01.md)                                        |
@@ -325,6 +327,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 | `location`        | location string                      | --                              | [52](52.md), [99](99.md)                           |
 | `name`            | name                                 | --                              | [34](34.md), [58](58.md), [72](72.md)              |
 | `nonce`           | random                               | difficulty                      | [13](13.md)                                        |
+| `money_address`   | currency, prototol, address          |                                 | [100](100.md)                                      |
 | `preimage`        | hash of `bolt11` invoice             | --                              | [57](57.md)                                        |
 | `price`           | price                                | currency, frequency             | [99](99.md)                                        |
 | `proxy`           | external ID                          | protocol                        | [48](48.md)                                        |
